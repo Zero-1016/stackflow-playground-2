@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  background-color: aqua;
+  margin: 3px;
+}
