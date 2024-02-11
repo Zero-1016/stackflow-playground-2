@@ -3,6 +3,7 @@ import { stackflow } from '@stackflow/react';
 import Mbti1 from '@/app/screens/mbti/mbti-1';
 import Mbti2 from '@/app/screens/mbti/mbti-2';
 import Mbti3 from '@/app/screens/mbti/mbti-3';
+import { basicUIPlugin } from '@stackflow/plugin-basic-ui';
 
 export const { Stack: MbtiStack, useFlow } = stackflow({
   transitionDuration: 350,
@@ -11,6 +12,6 @@ export const { Stack: MbtiStack, useFlow } = stackflow({
     Mbti2,
     Mbti3,
   },
-  plugins: [basicRendererPlugin()],
+  plugins: [basicRendererPlugin(), basicUIPlugin({ theme: 'cupertino' })],
   initialActivity: () => 'Mbti1',
 });

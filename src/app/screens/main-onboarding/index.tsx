@@ -6,7 +6,7 @@ const MainOnboarding: ActivityComponentType = ({ params }) => {
   const { changeMain } = useFlowMachine();
   return (
     <AppScreen>
-      <div className="flex flex-col text-center">
+      <div className="flex flex-col text-center w-full h-screen">
         <button onClick={changeMain}>메인화면으로</button>
       </div>
     </AppScreen>

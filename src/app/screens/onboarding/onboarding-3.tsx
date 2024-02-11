@@ -13,7 +13,7 @@ const Onboarding3: ActivityComponentType = ({ params }) => {
 
   return (
     <AppScreen>
-      <div className="flex flex-col text-center">
+      <div className="flex flex-col text-center w-full h-screen">
         <button onClick={changeProfile}>프로필 설정하러 가기</button>
         <button onClick={onBack}>이전 화면으로</button>
         <button onClick={changeProfile}>스킵하기</button>

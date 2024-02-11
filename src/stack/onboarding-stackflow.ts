@@ -3,6 +3,7 @@ import { stackflow } from '@stackflow/react';
 import Onboarding1 from '@/app/screens/onboarding/onboarding-1';
 import Onboarding2 from '@/app/screens/onboarding/onboarding-2';
 import Onboarding3 from '@/app/screens/onboarding/onboarding-3';
+import { basicUIPlugin } from '@stackflow/plugin-basic-ui';
 
 export const { Stack: OnboardingStack, useFlow } = stackflow({
   transitionDuration: 350,
@@ -11,6 +12,6 @@ export const { Stack: OnboardingStack, useFlow } = stackflow({
     Onboarding2,
     Onboarding3,
   },
-  plugins: [basicRendererPlugin()],
+  plugins: [basicRendererPlugin(), basicUIPlugin({ theme: 'cupertino' })],
   initialActivity: () => 'Onboarding1',
 });

@@ -7,7 +7,7 @@ const Main: ActivityComponentType = ({ params }) => {
 
   return (
     <AppScreen>
-      <div className="flex flex-col text-center">
+      <div className="flex flex-col text-center w-full h-screen">
         <button onClick={changeWaitng}>게임하러 가기</button>
         <button onClick={changeProfile}>프로필 설정 돌아가기</button>
       </div>

@@ -6,7 +6,7 @@ const WaitngRoom: ActivityComponentType = ({ params }) => {
   const { changeMain, changeSelect } = useFlowMachine();
   return (
     <AppScreen>
-      <div className="flex flex-col text-center">
+      <div className="flex flex-col text-center w-full h-screen">
         <button onClick={changeSelect}>게임 진행</button>
         <button onClick={changeMain}>나가기</button>
       </div>

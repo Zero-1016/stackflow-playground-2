@@ -3,6 +3,7 @@ import { stackflow } from '@stackflow/react';
 import SmallTalk1 from '@/app/screens/small-talk/smalltalk-1';
 import SmallTalk2 from '@/app/screens/small-talk/smalltalk-2';
 import SmallTalk3 from '@/app/screens/small-talk/smalltalk-3';
+import { basicUIPlugin } from '@stackflow/plugin-basic-ui';
 
 export const { Stack: SmallTalkStack, useFlow } = stackflow({
   transitionDuration: 350,
@@ -11,6 +12,6 @@ export const { Stack: SmallTalkStack, useFlow } = stackflow({
     SmallTalk2,
     SmallTalk3,
   },
-  plugins: [basicRendererPlugin()],
+  plugins: [basicRendererPlugin(), basicUIPlugin({ theme: 'cupertino' })],
   initialActivity: () => 'SmallTalk1',
 });

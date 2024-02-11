@@ -238,10 +238,10 @@
   resolved "https://registry.yarnpkg.com/@stackflow/plugin-renderer-basic/-/plugin-renderer-basic-1.1.7.tgz#202cceb2fb01059cfa73cde71b3de7359f29c888"
   integrity sha512-gS95DGuASr3mGmS7AWdBWK3S3iUxVVdO5KwqpiWU1YSSS0g1C2NzOJqNHBcg0cK333V13e4eIjBdZJxI9BCLFQ==
 
-"@stackflow/react@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@stackflow/react/-/react-1.1.7.tgz#88cd2fe074a4b6b6e5570c2220651d079478e00f"
-  integrity sha512-0Bqet3HdCY48n6jOhTHFfCwGgQ2ootY9KABTdY4xOJbRAu0sfXkUbvPU5YHte+i4wxVApRs/wyLgLYuyyTpslw==
+"@stackflow/react@^1.1.8-canary.0":
+  version "1.1.8-canary.0"
+  resolved "https://registry.yarnpkg.com/@stackflow/react/-/react-1.1.8-canary.0.tgz#8ddbeffd39de75a90a3f916e298601990fe8a731"
+  integrity sha512-bnTQX0MoOMgwtbA+khDEgbEM5tzZXBLVLGVsI8l5o2x6o87biCvzUsjXtMS8gWO6lkIieo+LkkciAoskV/ZZbQ==
   dependencies:
     react-fast-compare "^3.2.0"
 
@@ -2393,6 +2393,7 @@ streamsearch@^1.1.0:
   integrity sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==

@@ -11,7 +11,7 @@ const Mbti1: ActivityComponentType = ({ params }) => {
 
   return (
     <AppScreen>
-      <div className="flex flex-col text-center">
+      <div className="flex flex-col text-center w-full h-screen">
         <button onClick={onClick}>mbti 내꺼 선택하기</button>
       </div>
     </AppScreen>

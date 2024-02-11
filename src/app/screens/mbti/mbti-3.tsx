@@ -7,7 +7,7 @@ const Mbti3: ActivityComponentType = ({ params }) => {
 
   return (
     <AppScreen>
-      <div className="flex flex-col text-center">
+      <div className="flex flex-col text-center w-full h-screen">
         <button onClick={changeMain}>메인화면으로</button>
         <button onClick={changeWaitng}>준비화면으로</button>
       </div>

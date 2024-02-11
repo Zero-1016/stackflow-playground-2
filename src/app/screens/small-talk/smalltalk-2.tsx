@@ -11,7 +11,7 @@ const SmallTalk: ActivityComponentType = ({ params }) => {
 
   return (
     <AppScreen>
-      <div className="flex flex-col text-center">
+      <div className="flex flex-col text-center w-full h-screen">
         <button onClick={onClick}>다른 사람 대기하기</button>
       </div>
     </AppScreen>
